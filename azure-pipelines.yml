@@ -6,12 +6,6 @@
 trigger:
 - main
 
-jobs:  
-- deployment: VMDeploy
-  displayName: web
-  environment:
-    name:  linux
-    resourceType: VirtualMachine
 jobs:
 - deployment: VMDeploy
   displayName: web
